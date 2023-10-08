@@ -17,24 +17,24 @@ Before you begin, make sure you have the following prerequisite installed on you
 
 ### Clone the GitHub Repository
 
-**Clone the repository:** 
-
 Open your terminal or command prompt and navigate to the directory where you want to clone the project. Then, run the following command to clone the GitHub repository:
 
 ```bash
 git clone https://github.com/NdunguSam01/toy-problems-week-1.git
 ```
 
-**Navigate to the project directory:** Change your working directory to the newly cloned project folder:
+### Navigate to the project directory
+
+Change your working directory to the newly cloned project folder:
 ```bash
 cd toy-problems-week-1
 ```
 
-**Locate the JavaScript file:** 
+### Locate the JavaScript file
 
 In the cloned project directory, locate the JavaScript file you want to run. The file will have a .js extension
 
-**Run the JavaScript file:** 
+### Run the JavaScript file
 
 To do this, type the following command to run your JavaScript file using Node.js:
 ```bash
@@ -51,6 +51,6 @@ node Speed-detector.js
 node Net-Salary-Calculator.js
 ```
 
-**Output:** 
+### Output
 
 To view the output, Node.js will run the code and the output will be visible in the terminal.
