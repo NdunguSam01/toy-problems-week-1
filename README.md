@@ -1,7 +1,11 @@
 
 # Running the Toy Problems code challenge using Node.js
 
-This guide explains how to run the JavaScript files used to solve the Toy Problems Week 1 Code Challenge using Node.js after cloning a project from GitHub.
+This guide explains how to run the JavaScript files used to solve the Toy Problems Week 1 Code Challenge using Node.js after cloning a project from GitHub. The Code Challenge aimed at;
+
+1. Generating student's grade based on the score entered by a user
+2. Getting a salary input from the user and calculating the net salary of a Kenyan employee after tax deductions
+3. Getting a car's speed as the input and checking whether the speed provided is above the speed limit. If it's above the speed limit, the program should calculate and output the demerit points the driver has accumulated.
 
 ## Prerequisites
 
