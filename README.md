@@ -28,7 +28,7 @@ cd toy-problems-week-1
 
 **Locate the JavaScript file:** 
 
-In the cloned project directory, locate the JavaScript file you want to run. The file might have a .js extension
+In the cloned project directory, locate the JavaScript file you want to run. The file will have a .js extension
 
 **Run the JavaScript file:** 
 
