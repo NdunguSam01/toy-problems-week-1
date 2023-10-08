@@ -1,0 +1,47 @@
+//Converting the basic salary and benefits to floating numbers and adding the two to determine the taxable income
+let taxableIncome= parseFloat(basicSalary) + parseFloat(benefits);
+console.log(`Taxable income: Kshs. ${taxableIncome}`)
+
+//Declaring a function to calculate the PAYE amount
+const paye=(taxableIncome)=>
+{
+    //Declaring the payeAmount variable and assigning a value of 0 to it
+    let payeAmount=0
+    //Declaring the personal relief amount and assigning a constant value of 2400 to it
+    const personalRelief=2400
+
+    if(taxableIncome <= 24000)
+    {
+        payeAmount=taxableIncome * 0.1
+    }
+    else if(taxableIncome >24000 && taxableIncome <= 32333)
+    {
+        payeAmount=taxableIncome * 0.25
+    }
+    else if(taxableIncome > 32334 && taxableIncome <= 500000)
+    {
+        payeAmount=taxableIncome * 0.30
+    }
+    else if(taxableIncome > 50000 && taxableIncome <= 800000)
+    {
+        payeAmount=taxableIncome * 0.325
+    }
+    else if(taxableIncome > 800000)
+    {
+        payeAmount=taxableIncome * 0.35
+    }
+
+    //Subtracting the personal relief from the PAYE amount and returning the value
+    payeAmount=parseFloat(payeAmount)-parseFloat(personalRelief)
+    return payeAmount
+}
+//Invoking the PAYE function
+// console.log(`PAYE Amount: Kshs. ${paye(taxableIncome)}`)
+
+
+
+// //Declaring a function to calculate the fringe benefit tax 
+// const fringeBenefitTax=()=>
+// {
+
+// }
