@@ -20,7 +20,6 @@ Before you begin, make sure you have the following prerequisite installed on you
 3. **Locate the JavaScript file:** In the cloned project directory, locate the JavaScript file you want to run. The file might have a .js extension
 
 4. **Run the JavaScript file:** To do this, type the following command to run your JavaScript file using Node.js:
-
     node fileName.js
 
     Replace the fileName with the exact file name. In this case, we will be running three different files for the different solutions. So the commands for the three files names will be
