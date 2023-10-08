@@ -39,9 +39,11 @@ node fileName.js
 Replace the fileName with the exact file name. In this case, we will be running three different files for the different solutions. So the commands for the three files names will be
 ```bash
 node Grade-generator.js
-
+```
+```bash
 node Speed-detector.js
-
+```
+```bash
 node Net-Salary-Calculator.js
 ```
 
