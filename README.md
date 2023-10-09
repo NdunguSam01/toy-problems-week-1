@@ -11,8 +11,8 @@ This guide explains how to run the JavaScript files used to solve the Toy Proble
 
 Before you begin, make sure you have the following prerequisite installed on your system:
 
-- [Node.js](https://nodejs.org/) : Download and install Node.js from the official website.
-- [Prompt-sync](https://www.npmjs.com/package/prompt-sync) : Download and install Prompt sync package from the official NPM website. This tool will help us get input from the user which will be used to perform the various calculations.
+- [Node.js](https://nodejs.org/): Download and install Node.js from the official website.
+- [Prompt-sync](https://www.npmjs.com/package/prompt-sync): Download and install Prompt sync package from the official NPM website. This tool will help us get input from the user which will be used to perform the various calculations.
 
 ## Getting started
 
